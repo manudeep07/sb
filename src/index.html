@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwindcss with client</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <h1 class="text-3xl underline text-red-500 font-bold">content here</h1>
+    <div class="container mx-auto px-4 bg-red-400">
+        <h2>I am not in danger skyler i am the danger</h2>
+    </div>
+    <div class="w-1/4 h-40 bg-blue-400 text-red-500 justify-center items-center">50% width</div>
+    <div class="hidden md:block">This is my hidden implementation with visible</div>
+    <div class="hidden lg:block">This text is hidden on small screen but visibility on larger screen</div>
+    <div class="hiiden sm:block">This </div>
+    <img src="IMG_1903 2.jpg" alt="floating to the right" class="float-right object-cover  h-30">
+    <p class="clear-both">This text clears the float and moves below the image</p>
+    <div class="relative top-0 left-0 bg-red-500 p-4">relative parent!</div>
+    <div class="absolute top-2 right-2 bg-yellow-600 p-2 z-40">1</div>
+    <div class="absolute top-2 right-2 bg-yellow-600 p-2 z-0">2</div>
+    <div class="absolute top-2 right-2 bg-yellow-600 p-2 z-20">3</div>
+    <div class="absolute top-2 right-2 bg-yellow-600 p-2 z-20">4</div>
+    <img src="IMG_1903 2.jpg" alt="oscar" class="object-cover w-full h-48 object-center">
+    <div class="flex justify-between items-center">
+        <div>Menu</div>
+        <div>Logo</div>
+    </div>
+    <div class="grid grid-cols-3 gap-4">
+        <div class="bg-green-500 p-4 ">1</div>
+        <div class="bg-yellow-500 p-4 ">2</div>
+        <div class="bg-blue-500 p-4 ">3</div>
+    </div>
+</body>
+</html>
